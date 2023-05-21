@@ -34,17 +34,23 @@
       #intro {
         background-image: url("./images/background.PNG");
         height: 120vh;
+        margin-top: -200px;
       }
-      @media (min-width: 992px) {
-        #intro {
-          margin-top: -200px;
-        }
-      }
+
       .navbar .nav-link {
         color: white !important;
       }
       .icon_hover:hover {
         color: #edc846;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      blockquote {
+        text-shadow: 1px 1px #52525b;
       }
     </style>
 
@@ -58,13 +64,10 @@
     ></script>
 
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark d-none d-lg-block"
-      style="z-index: 2000"
-    >
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 2000">
+      <div class="container-fluid justify-content-end">
         <!-- Navbar brand -->
-        <a
+        <!-- <a
           class="navbar-brand mt-2 mt-lg-0"
           href="https://www.instagram.com/upinsmoke_pd/"
         >
@@ -76,9 +79,10 @@
             loading="lazy"
           />
         </a>
+        -->
+        <!-- Icons -->
         <ul class="navbar-nav d-flex flex-row">
-          <!-- Icons -->
-          <li class="nav-item mb-2 me-5 me-lg-0">
+          <li class="nav-item mb-2 me-3 me-lg-0">
             <a
               class="nav-link"
               href="#FB Link heeere"
@@ -88,7 +92,7 @@
               <i class="fa-brands fa-facebook fa-2xl icon_hover"></i>
             </a>
           </li>
-          <li class="nav-item mb-2 me-5 me-lg-0">
+          <li class="nav-item mb-2 me-3 me-lg-0">
             <a
               class="nav-link"
               href="https://www.instagram.com/upinsmoke_pd/"
@@ -103,6 +107,7 @@
       </div>
     </nav>
     <!-- Navbar -->
+
     <!-- Background image -->
     <div id="intro" class="bg-image shadow-2-strong">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.65)">
@@ -110,20 +115,34 @@
           class="container d-flex align-items-center justify-content-center text-center h-100"
         >
           <div style="color: #edc846">
-            <p class="h1 mb-3">UP IN SMOKE</p>
-            <p class="h3 fst-italic mb-10">SHISHA & BAR</p>
+            <!-- <p class="h1 mb-3">UP IN SMOKE</p> 
+            <p class="h3 fst-italic mb-10">SHISHA & BAR</p> -->
+            <img
+              class="img-fluid mb-3"
+              src="./images/up in smoke 2022 SHADOW.png"
+              style="max-height: 200px"
+            />
             <a
               class="nav-link"
               href="https://goo.gl/maps/Mr2K76yEeKM1TeoMA"
               rel="nofollow"
               target="_blank"
-              ><p class="h5 mb-4">
+              ><h5 class="mb-4">
                 <i class="fa fa-location-arrow"></i> PRO Centrum G. Švéniho 3,
                 Prievidza 97101
-              </p></a
+              </h5></a
             >
-            <p class="h5 fw-semibold">Otváracie Hodiny</p>
             <hr mc-5 />
+            <h5 class="fw-semibold mb-3">Otváracie Hodiny</h5>
+              <div class="div lh-1">
+                <p> Pondelok 16:00 - 23:00 </p>
+                <p> Utorok 16:00 - 23:00</p>
+                <p> Streda 16:00 - 23:00</p>
+                <p> Štvrtok 16:00 - 23:00</p>
+                <p> Piatok 16:00 - 1:00</p>
+                <p> Sobota 16:00 - 1:00</p>
+                <p> Nedeľa 16:00 - 23:00</p>
+            </div>
             <a
               class="nav-link"
               href="https://www.instagram.com/upinsmoke_pd/"
@@ -153,7 +172,7 @@
             class="hr hr-blurry"
             style="background-color: #edc846; opacity: 0.5"
           />
-          <h3 class="mt-3 mb-4 text-center">O nás</h3>
+          <h1 class="mt-3 mb-4 text-center fw-semibold">O nás</h1>
         </div>
         <div class="row">
           <div class="col-md-4 gx-5 mb-4">
@@ -161,7 +180,7 @@
               class="bg-image hover-overlay ripple shadow-2-strong rounded-5 align-items-right"
               data-mdb-ripple-color="light"
             >
-              <img src="./images/AI Generated_Bar.jfif" class="img-fluid" />
+              <img src="./images/O_nas.JPG" class="img-fluid" />
               <a href="#!">
                 <div
                   class="mask"
@@ -170,53 +189,192 @@
               </a>
             </div>
           </div>
+          <!--SUB: Text-->
 
           <div class="col-md-6 gx-5 mb-4">
-            <p>
-              Sme tím mladých profesionalnych ludi, ktorý sa venuju priprave
-              shish, miešaných drinkov. Všetky tieto drinky vieme ponuknut aj vo
-              forme cateringu na rôzne udalosti. Pripravíme Vám skvelú shishu a
-              miešný drink s použitím tých surovín a druhov tabakov. U nás
-              vládne vždy priateľská a pohodová atmosféra. Prídte si ju
-              vychutnať aj Vy!
-            </p>
+            <h3>Up in Smoke</h3>
+            <div class="fs-5">
+              <p>
+                je útulný Shisha & Coctail bar v centre mesta Prievidza, ktorý
+                Vám každý deň ponúka svoj široký sortiment sviežich,sladkých i
+                dezertových príchuti miešaných drinkov, limonád z domácich
+                produktov.
+              </p>
+              <p>
+                V letných mesiacoch je možnosť posediet si na terase, kde si
+                dokonale môžte vychutnať niektorú z našich príchutí so svojim
+                obľubeným napojom.
+              </p>
+            </div>
           </div>
+          <p class="mt-4 lead text-center fw-semibold">
+            "Up in Smokeje miesto ktoré je ako storené pre oddych v kruhu
+            priateĺov, rodiny ale takisto aj pre firemné stretnutia či oslavu."
+          </p>
         </div>
       </section>
       <!--Section: O Nas-->
-      <!--Section: Personal-->
+
+      <!--Section: Menu -->
       <section style="color: #edc846">
-        <div class="row">
-          <h3 class="mt-3 mb-4 text-center">Personal</h3>
-        </div>
-        <div class="row">
-          <div class="col-md-4 gx-5 mb-4 order-1">
-            <div
-              class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
-              data-mdb-ripple-color="light"
-            >
-              <img src="./images/AI Generated_CEO.jfif" class="img-fluid" />
-              <a href="#!">
-                <div
-                  class="mask"
-                  style="background-color: rgba(0, 0, 0, 0.15)"
-                ></div>
-              </a>
+        <div class="container-fluid">
+          <hr
+            class="hr hr-blurry"
+            style="background-color: #edc846; opacity: 0.5"
+          />
+          <h1 class="mt-3 mb-4 text-center fw-semibold">Ponuka</h1>
+
+          <div class="row text-center"><h4>Shisha</h4></div>
+          <div class="row align-items-center">
+            <div class="col-md-4 gx-5 mb-4">
+              <!--Picture -->
+              <div
+                class="mt-3 mb-4 bg-image hover-overlay ripple shadow-2-strong rounded-5"
+                data-mdb-ripple-color="light"
+              >
+                <img src="./images/Shisha.webp" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.15)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 gx-5 mb-4 text-center">
+              <!-- Text -->
+              <div class="fs-5">
+                <p>
+                  V našom dymkarskom MENU Vám vždy ponúkame široký výber
+                  sviežich, sladkých i dezertových príchuti. V našej ponuke
+                  nájdete zaujímavé kúsky vodných fajok, ktoré pochádzajú najmä
+                  z Ruska, Ukrajiny a Nemecka. Pre vytvorenie dokonalého zážitku
+                  máme na vyber tie najkvalitnejšie prémiové značky tabakov a
+                  koruniek. Nech, sa už rozhodnete pre ktorúkoľvek, rozhodnete
+                  nebudete ľutovat.
+                </p>
+              </div>
+              <!-- Text -->
+            </div>
+            <!--Picture -->
+          </div>
+
+          <div class="row text-center">
+            <h4>Coctails</h4>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-md-4 gx-5 mb-4">
+              <!--Picture -->
+              <div
+                class="mt-3 mb-4 bg-image hover-overlay ripple shadow-2-strong rounded-5 align-items-right"
+                data-mdb-ripple-color="light"
+              >
+                <img src="./images/Coctails.webp" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.15)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <!--Picture -->
+            <div class="col-md-6 gx-5 mb-4">
+              <!-- Text -->
+              <div class="fs-5">
+                <p>
+                  Okrem nášho stáleho MENU Vám každý mesiac ponúkame unikatne
+                  miešané drinky z tích najlepších spiritov na svete. Neviete sa
+                  rozhodnúť? Náš ochotný personal Vám veľmi rád poradi s voľbou
+                  toho najlepsieho miešaného drinku, ktorí bude vyhovovať vaším
+                  preferenciam.
+                </p>
+              </div>
+              <!-- Text -->
             </div>
           </div>
 
-          <div class="col-md-6 gx-5 mb-4">
-            <h5><strong>Martin Milata</strong></h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              consequatur eligendi quisquam doloremque vero ex debitis veritatis
-              placeat unde animi laborum sapiente illo possimus, commodi
-              dignissimos obcaecati illum maiores corporis.
-            </p>
+          <div class="row text-center">
+            <h4>Spirits</h4>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-md-4 gx-5 mb-4">
+              <!--Picture -->
+              <div
+                class="mt-3 mb-4 bg-image hover-overlay ripple shadow-2-strong rounded-5 align-items-right"
+                data-mdb-ripple-color="light"
+              >
+                <img src="./images/Spirits.webp" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.15)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <!--Picture -->
+            <div class="col-md-6 gx-5 mb-4">
+              <!-- Text -->
+              <div class="fs-5">
+                <p>
+                  Rum, Whisky, Bourbon, Vodka, Gin, Tequila i mnoho ďalších! V
+                  našom portfoliu nájdete tie najznámejšie svetové značky, ktore
+                  oblubujú hostia, barmani i mixológovia po celom svete.
+                </p>
+              </div>
+              <!-- Text -->
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <h4>Coctails</h4>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-md-4 gx-5 mb-4">
+              <!--Picture -->
+              <div
+                class="mt-3 mb-4 bg-image hover-overlay ripple shadow-2-strong rounded-5 align-items-right"
+                data-mdb-ripple-color="light"
+              >
+                <img src="./images/coffee.webp" class="img-fluid" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(0, 0, 0, 0.15)"
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <!--Picture -->
+            <div class="col-md-6 gx-5 mb-4">
+              <!-- Text -->
+              <div class="fs-5">
+                <p>
+                  V oblasti kávy spolupracujeme so skúsenou pražiarňou
+                  <b>Pavin Caffé</b>, ktorá prináľa ľudom radosť už od roku
+                  1950. Základ nášho Espressa tvorí unikátny blend Superbar,
+                  ktorý je známy veľmi jemnou, harmonickou chuťou a mimoriadne
+                  zamatovou krémou.
+                </p>
+              </div>
+              <!-- Text -->
+            </div>
+            <figure class=" fs-5">
+                <blockquote class="blockquote text-center">
+                  <p>"Gastronomy is the greatest form of therapy that anyone can be exposed to"</p>
+                </blockquote>
+                <figcaption class="blockquote-footer text-center">
+                  <cite title="Source Title">Marco Pierre White</cite>
+                </figcaption>
+              </figure>
           </div>
         </div>
       </section>
-      <!--Section: Personal-->
+      <!--Section: Menu-->
     </div>
     <!--Main layout-->
   </main>
