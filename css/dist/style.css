@@ -1,0 +1,23 @@
+#intro {
+  background-image: url("../../images/background.webp");
+  height: 120vh;
+  margin-top: -200px;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.icon_hover:hover {
+  color: #edc846;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  text-shadow: 1px 2px #1f2937;
+}
