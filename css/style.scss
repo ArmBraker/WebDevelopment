@@ -1,5 +1,15 @@
-
 @import 'https://fonts.googleapis.com/css2?family=PT+Serif&display=swap';
+
+
+@media only screen and (min-width: 600px) {
+  .card .card-text {
+    min-height: 600px;
+  }
+}
+
+$card-bg: linear-gradient(to right bottom, #464546);
+
+
 
 #intro {
   background-image: url("../../images/background.webp");
@@ -15,6 +25,10 @@
   color: #edc846;
 }
 
+.blockquote {
+  color: #edc846 !important;
+}
+
 h1,
 h2,
 h3,
@@ -22,14 +36,38 @@ h4,
 h5,
 h6,
 blockquote {
-  text-shadow: 1px 1px 1px #2d2c2d, 0 0 0.1em #edc846;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.353);
 }
 
-.menu {
-  background: rgb(70,69,70);
-  background: radial-gradient(circle, rgba(70,69,70,1) 0%, rgba(0,0,0,1) 100%);
-}
 
 :root {
-  --bs-body-font-family: 'PT Serif', sans-serif !important;
+  --bs-body-font-family: "PT Serif", sans-serif !important;
+  --bs-body-bg: black !important;
+}
+
+.card {
+  color: #edc846 !important;
+  border: 1px solid transparent !important;
+  border-radius: 1rem !important;
+  text-align: center;
+  
+
+  backdrop-filter: blur(1rem) !important;
+  box-shadow: 1rem 1rem 1rem rgba(255, 225, 255, 0.089) !important;
+
+  border-top-color: rgba(237, 200, 70, 0.5)!important;
+  border-left-color: rgba(237, 200, 70, 0.5)!important;
+  border-right-color: rgba(237, 200, 70, 0.1)!important;
+  border-bottom-color: rgba(237, 200, 70, 0.1)!important;
+
+}
+
+
+
+.card img {
+  border-radius: 1rem;
+}
+
+.card-style {
+  background: linear-gradient(to left bottom, rgba(0, 0, 0 , 1), rgba(255, 255, 255, 0.081)) !important;
 }
