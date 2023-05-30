@@ -1,19 +1,12 @@
 @import 'https://fonts.googleapis.com/css2?family=PT+Serif&display=swap';
 
-
-@media only screen and (min-width: 600px) {
-  .card .card-text {
-    min-height: 600px;
-  }
-}
-
 $card-bg: linear-gradient(to right bottom, #464546);
-
 
 
 #intro {
   background-image: url("../../images/background.webp");
-  height: 100vh;
+  height: 120vh;
+  height: 120dvh;
   margin-top: -200px;
 }
 
@@ -62,7 +55,15 @@ blockquote {
 
 }
 
+.card .card-text {
+  min-height: auto;
+}
 
+@media only screen and (min-width: 760px) {
+  .card .card-text {
+    min-height: 600px;
+  }
+}
 
 .card img {
   border-radius: 1rem;
