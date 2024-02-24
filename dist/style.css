@@ -9,7 +9,7 @@
 
 #hero_section {
   letter-spacing: 0.15em;
-  background-image: url(/img/wave.svg);
+  background-image: url(https://armbraker.github.io/WebDevelopment/img/wave.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
