@@ -1,173 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ViVe Nabytok</title>
     <!-- Favicon -->
-    <link rel="icon" href="./img/icons/header.svg">
+    <link rel="icon" href="/img/icons/header.svg" />
     <!-- Bootstrap 5 CDN CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- End Bootstrap 5 CDN CSS -->
-    <link rel="stylesheet" href="./dist/style.css" type='text/css'>
+    <!-- Custom CSS Import -->
+    <link rel="stylesheet" href="./dist/style.css" type="text/css" />
+    <!-- End Custom CSS Import -->
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- Spinner -->
-<div class="spinner-wrapper text-primary">
-  <div class="spinner-border" role="status">
-    <span class="visually-hidden">Loading...</span>
-  </div>
-</div>
-<!-- End of Spinner -->
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- End Font -->
     <!-- JS Bootstrap import section -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- End Bootstrap import section -->
     <script src="./dist/script.js"></script>
+  </head>
 
-    <!-- Hero Section -->
-    <div class="container-fluid" id="hero_section">
-        <div class="row">
-        <div class="col-12 col-md-6 align-self-center text-center" id="hero_section_text">
-            <div class="h1 display-2 mb-5">ViVe Nabytok</div>
-            <figure class="text-center">
-              <blockquote class="blockquote">
-                <p class="fs-4">Výroba nábytku, vstavaných skríň a kuchýň na mieru.</p>
-              </blockquote>
-              <figcaption class="blockquote-footer fs-5">
-                Vaše Vízie, Naša Realizácia
-              </figcaption>
-            </figure>
-        </div>
-        <div class="col-12 col-md-6 my-5 align-self-center text-center" id="hero_section_satnik">
-            <img src="./img/hero_section_satnik.jpg" alt="" class="img-fluid img-thumbnail rounded">
-        </div>
-    </div>
-    </div>
-    <!-- End Hero Section -->
-    <!-- Products -->
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-12 text-center align-self-center">
-                <div class="h2 display-5"><div class="divider">Ponuka</div></div>
-            </div>
-            <div class="col fs-5">
-              <p> <strong>Kuchynské linky: </strong>Navrhneme a vyrobíme kuchynské linky, ktoré budú nielen praktické, ale aj esteticky príťažlivé. Každý kus bude presne podľa vašich predstáv.</p> 
-              <p> <strong>Obývacie steny: </strong>Prevažujúce centrum vášho obývacieho priestoru. Vytvoríme steny, ktoré budú kombinovať funkčnosť s dizajnom.</p> 
-              <p> <strong>Manželské postele: </strong>Spánok je dôležitý, a preto navrhneme a vyrobíme manželské postele, ktoré nebudú krásne len na oko, ale aj pohodlné.</p> 
-              <p> <strong>Šatníky a walk-in šatníky: </strong>Uložte svoje oblečenie štýlovo a efektívne.</p> 
-              <p> <strong>Pracovné stoly a kancelársky nábytok: </strong>Funkčné a ergonomické riešenia pre vaše pracovné prostredie.</p> 
-              <p> <strong>Kúpeľňový nábytok a skrinky pod umývadlo: </strong>Vytvoríme praktické a elegantné riešenia pre vašu kúpeľňu.</p> 
-            </div>
-            <div class="col-12 my-3">
-              <div id="Ponuka-Carosel" class="carousel slide" data-bs-touch="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#Ponuka-Carosel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#Ponuka-Carosel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#Ponuka-Carosel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active c-item">
-                    <img src="./img/vizualizacie/vizualizacia1.jpeg" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption ">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item c-item">
-                    <img src="./img/vizualizacie/vizualizacia2.jpeg" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption ">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item c-item">
-                    <img src="./img/vizualizacie/vizualizacia3.jpeg" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption ">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#Ponuka-Carosel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#Ponuka-Carosel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Products Section-->
 
-    <!-- Why us -->
-    <div class="container py-5">
-      <div class="col">
-        <div class="h2 text-center display-5 py-3"><div class="divider">Prečo si vybrať práve nás?</div></div>
-        <div class="row">
-          <ul class="list-group list-group-flush fs-5">
-            <li class="list-group-item">Používame kvalitné materiály aj od nemeckej značky Egger. Ich dekoratívne materiály sú šetrné k životnému prostrediu, zdravé a odolné. Okrem toho ponúkajú lakované MDF dosky a laminátové podlahy, ktoré sú vizuálne atraktívne a vynikajúco odolné. Zákazník má tak možnosť si vybrať z viacerých dekorov a materiálov, no ponúkame aj materiály a dekory podľa výberu zákazníka.</li>
-            <li class="list-group-item">Našim klientom ponúkame vizualizáciu pomocou programu PRO100. Ide o profesionálny softvér, ktorý nám umožňuje vytvárať realistické 3D vizualizácie nábytku a interiérov. Klienti tak majú možnosť dokonalej predstavy, ako bude ich nový nábytok pasovať do priestoru a aké budú výsledné efekty. Ak máte záujem o konkrétny návrh alebo chcete vidieť rôzne varianty, stačí nám povedať, a my vám vytvoríme vizualizáciu s možnými úpravami. Vaša spokojnosť je pre nás na prvom mieste!</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row mt-4 text-center g-3">
-        <div class="col-sm-6 col-md-3 Why-US-icons">
-          <img src="./img/icons/handplane.svg" alt="" class="img-fluid"><p><strong>Zákazkové stolárstvo <br> od roku 2021</strong></p>
-        </div>
-        <div class="col-sm-6 col-md-3 Why-US-icons">
-          <img src="./img/icons/ladder.svg" alt="" class="img-fluid"><p><strong>Profesionálna montáž</strong></p>
-        </div>
-        <div class="col-sm-6 col-md-3 Why-US-icons">
-          <img src="./img/icons/monitor.svg" alt="" class="img-fluid"><p><strong>Vizualizácia 3D návrhu</strong></p>
-        </div>
-        <div class="col-sm-6 col-md-3 Why-US-icons">
-          <img src="./img/icons/pencil-svgrepo-com.svg" alt="" class="img-fluid"><p><strong>Nábytok na mieru</strong></p>
-        </div>
-      </div>
-    </div>
-    <!-- End of Why Us section -->
-
-     <!-- <div class="container-fluid">
-     <div class="h1 display-4 text-center">Dalsia sekcia</div>
-     </div> -->
-     <!-- Kontak Section -->
-     <div class="container-fluid">
-      <div class="h2 display-6">Kontaktujte Nás</div>
-      <ul class="list-group mt-4 pb-3 list-group-flush">
-        <li class="list-group-item"><a href="https://www.facebook.com/people/ViVe-n%C3%A1bytok-na-mieru/100084739264105/"><i class="bi bi-facebook fs-3"></i></a> Navštívte našu Facebookovú stránku a pošlite nám správu. Budeme sa snažiť odpovedať čo najskôr.</li>
-        <li class="list-group-item"><a href="mailto:vivenabytok@gmail.com"><i class="bi bi-envelope-at fs-3"></i></a> Napíšte nám na adresu vivenabytok@gmail.com. Vašu správu si prečítame a zareagujeme na ňu.</li>
-        <li class="list-group-item"><i class="bi bi-whatsapp fs-3 text-primary"></i> Ak preferujete komunikáciu cez WhatsApp, môžete nám zavolať alebo poslať správu na číslo +421 908 556 110.</li>
-        <li class="list-group-item">Tešíme sa na vašu správu a budeme sa snažiť čo najrýchlejšie odpovedať na vaše otázky!</li>
-      </ul>
-      </div>
-      <!-- End of Contant Section -->
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-3 mt-5 font-monospace">
+<body>
+     <!-- Navbar section -->
+    <!-- Navbar section -->
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg fs-4">
       <div class="container-fluid">
-        <div class="row">
-        <div class="col-12 col-md-6 fs-5" id="Footer-Text">
-          <p><i class="bi bi-phone"></i> +421 908 556 110</p>
-          <p><i class="bi bi-envelope-at"></i> vivenabytok@gmail.com</p>
-          <p><i class="bi bi-compass"></i> Cigeľ</p>
-        </div>
-        <div class="col-12 col-md-6 text-end align-self-center display-6" id="Footer-Social">
-          <a href="https://www.facebook.com/people/ViVe-n%C3%A1bytok-na-mieru/100084739264105/"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="mailto:vivenabytok@gmail.com"><i class="bi bi-envelope-at"></i></a>
+        <a class="navbar-brand ps-2 fs-2" href="index.html">
+          <img
+            src="/img/hero.svg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block me-2"
+            alt=""
+          />
+          ViveNabytok</a
+        >
+        <button
+          class="navbar-toggler shadown-none border-0 border-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- SideBar -->
+        <div
+          class="sidebar offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- SideBar Header -->
+          <div class="offcanvas-header border-bottom justify-content-end">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!-- SideBar Body -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-3 justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="/index.html">Domov</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Ponuka
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark fs-5">
+                  <li>
+                    <a class="dropdown-item dropdown-item" href="skrine.html"
+                      >Skrine</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kupelne.html"
+                      >Kúpeľňový nábytok</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="kuchyne.html"
+                      >Kuchynské linky</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="namieru.html"
+                      >Nábytok na mieru</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="/kontakt.html">Kontakt</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="/about.html">O nás</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div
+      class="container-fluid py-5 mb-4 d-flex justify-content-center hero-section"
+    >
+      <div class="p-5 mb-4 col-lg-8 col-12 text-center align-self-center title">
+        <div class="h1 pb-3">ViveNabytok</div>
+        <div class="h2 mt-3 fs-5">Vaše Vízie - Naša Realizácia</div>
       </div>
-      <p class="pt-3 text-center text-muted text-bottom">Copyright: 2024</p>
-    </footer>
-    <!-- End of Footer -->
-</body>
+    </div>
+  </body>
 </html>

@@ -1,36 +1,96 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
 
-.h1 {
-    font-family: "Pacifico", cursive;
-    text-shadow: 
-    1px -1px 0 hsl(0, 0%, 40%), 
-    -1px 2px 1px hsl(0, 0%, 40%), 
-    -2px 4px 1px hsl(0, 1%, 40%), 
-    -3px 6px 1px hsl(0, 0%, 40%);
+.whyus-section {
+    font-family: "Poppins", sans-serif;
+    background-image: url('/img/background.jpg');
+    min-height: 100dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:768px) {
+    .h1 {
+        font-size: calc(1.525rem + 3.3vw) !important;
+    }
+
+    .whyus-section {
+        min-height: 100dvh !important;
+    }
+
+    #Footer-Text {
+        font-size: calc(0.2rem + 3.3vw) !important;
+    }
+
+    #Footer-Social {
+        text-align: center !important;
+    }
+}
+
+@media (max-width:991px) {
+    .sidebar {
+        background-color: rgba($color: #000000, $alpha: 0.15);
+        backdrop-filter: blur(6px) saturate(102%);
+        -webkit-backdrop-filter: blur(6px) saturate(102%);
+    }
 }
 
 .h2 {
-     font-family: "Poppins", sans-serif;
-    //  font-weight: bold;
-    // text-shadow: 
-    // 1px -1px 0 hsl(0, 0%, 40%), 
-    // -1px 2px 1px hsl(0, 0%, 40%), 
-    // -2px 4px 1px hsl(0, 1%, 40%), 
-    // -3px 6px 1px hsl(0, 0%, 40%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
-#hero_section{
-    //  color: #131313;
-     letter-spacing: .15em;
-     background-image: url(/img/wave.svg);
-     background-repeat:no-repeat;
-     background-size: cover;
+.h1 {
+    font-family: "Pacifico", cursive;
+    text-shadow:
+        1px -1px 0 hsl(0, 0%, 40%),
+        -1px 2px 1px hsl(0, 0%, 40%),
+        -2px 4px 1px hsl(0, 1%, 40%),
+        -3px 6px 1px hsl(0, 0%, 40%);
+    font-size: 4rem;
 }
 
-#hero_section_satnik > img{
-    max-height: 50vh;
+
+.hero-section {
+    background-image: url('/img/background.jpg');
+    height: 100dvh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
 }
 
-.spinner-wrapper{
+.title {
+    color: white;
+    backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: transparent;
+    border-radius: 12px;
+    border: 0.5px solid rgba(209, 213, 219, 0.3);
+    background-color: rgba($color: #000000, $alpha: 0.40);
+}
+
+.navbar {
+    font-family: "Poppins", sans-serif;
+    border-bottom: 0.5px solid rgba(209, 213, 219, 0.3);
+    background-color: rgba($color: #000000, $alpha: 0.15);
+}
+
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+}
+
+.dropdown-menu {
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+}
+
+.spinner-wrapper {
     background-color: black;
     position: fixed;
     width: 100%;
@@ -42,45 +102,40 @@
     display: flex;
 }
 
-.spinner-border{
+.spinner-border {
     height: 5em;
     width: 5em;
 }
 
-.c-img{
-    margin: auto; 
-    object-fit: cover;
-    filter: brightness(0.6);    
-}
-
-#Ponuka-Carosel{
-    box-shadow: 10px 10px 5px 0px rgba(161,138,138,0.81);
-}
-
-#Footer-Social{
-    letter-spacing: 0.15em;
-}
-
-.list-group-item{
-     background-color: #d6d3d1;
-    
-}
-
-.Why-US-icons > img{
+.Why-US-icons>img {
     max-height: 10vh;
 }
 
-p { margin:0 }
-
-body{
-    // background: #d6d3d1;
-    background-image: linear-gradient(to bottom, #7f7776 0%, #d6d3d1 60%);
+.break-all {
+    word-break: break-all;
 }
+
+.contact-section {
+    font-family: "Poppins", sans-serif;
+    background-image: url('/img/background.jpg');
+    min-height: 100dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.my-icon {
+    color: white;
+    font-size: 2rem;
+    /* Adjust as needed */
+}
+
 
 .divider {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Add this line */
+    justify-content: flex-start;
+    /* Add this line */
 }
 
 .divider::before,
@@ -88,6 +143,28 @@ body{
     flex: 1;
     content: '';
     padding: 0.5px;
-    background-color: black; /* Change the color as desired */
+    background-color: white;
+    /* Change the color as desired */
     margin: 0 16px;
+}
+
+.ponuka{
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.c-img {
+    margin: auto;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+#Ponuka-Carosel {
+    box-shadow: 10px 10px 5px 0px #a18a8acf;
+}
+
+#Footer-Social > a {
+    padding-right: 10px;
 }
