@@ -6,7 +6,7 @@ body {
 
 .whyus-section {
   font-family: "Poppins", sans-serif;
-  background-image: url("img/background.jpg");
+  background-image: url("https://armbraker.github.io/WebDevelopment/img/background.jpg");
   min-height: 100dvh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,7 +49,7 @@ body {
 }
 
 .hero-section {
-  background-image: url("img/background.jpg");
+  background-image: url("https://armbraker.github.io/WebDevelopment/img/background.jpg");
   height: 100dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ body {
 
 .contact-section {
   font-family: "Poppins", sans-serif;
-  background-image: url("img/background.jpg");
+  background-image: url("https://armbraker.github.io/WebDevelopment/img/background.jpg");
   min-height: 100dvh;
   background-repeat: no-repeat;
   background-size: cover;
