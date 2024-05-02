@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+.nav-link {
+  color: white !important;
+}
+
 .whyus-section {
   font-family: "Poppins", sans-serif;
   background-image: url("https://armbraker.github.io/WebDevelopment/img/background.jpg");
@@ -11,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 2%;
 }
 
 @media (max-width: 768px) {
@@ -20,6 +25,7 @@ body {
 
   .whyus-section {
     min-height: 100dvh !important;
+    padding-top: 90px !important;
   }
 
   #Footer-Text {
@@ -37,15 +43,18 @@ body {
     -webkit-backdrop-filter: blur(6px) saturate(102%);
   }
 }
-.h2 {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
+.quote {
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: bold !important;
 }
 
 .h1 {
-  font-family: "Pacifico", cursive;
   text-shadow: 1px -1px 0 #666666, -1px 2px 1px #666666, -2px 4px 1px #676565, -3px 6px 1px #666666;
   font-size: 4rem;
+}
+
+.special-font {
+  font-family: "Pacifico", cursive;
 }
 
 .hero-section {
@@ -73,12 +82,8 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.navbar-brand {
-  font-family: "Pacifico", cursive;
-}
-
 .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(6px) saturate(102%);
   -webkit-backdrop-filter: blur(6px) saturate(102%);
 }
@@ -147,6 +152,8 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #605C3C, #3C3B3F);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 2%;
+  padding-top: 100px;
 }
 
 .c-img {
@@ -155,10 +162,6 @@ body {
   filter: brightness(0.8);
 }
 
-#Ponuka-Carosel {
-  box-shadow: 10px 10px 5px 0px #a18a8acf;
-}
-
 #Footer-Social > a {
-  padding-right: 10px;
+  padding-right: px;
 }
